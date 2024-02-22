@@ -1,31 +1,21 @@
-# 인공지능 프로젝트 모음집에 있는 것을 직접 구현해보기!
+# 인공지능 애플리케이션 제작된 것 구현해보는 레파지토리
+<hr>
 
-# Macos pytorch Installation
+## 구현한 목록 
 
-1. create conda environment
+| 제목 | 설명 |
+|----|----|
+|    |    |
 
-```bash
-conda create -n "pytorch" python=3.8
-```
-2. execute conda environment
+## 인공지능 애플리케이션 제작할 때 만들 것.
 
-```bash
-conda activate pytorch
-```
+1. "folder_creation.py" 파일을 통해서 model_codes, server_codes, ui_codes 폴더를 제작한다.
+2. 각 폴더의 용도를 설명한다.
 
-3. installation pytorch (mac ver)
-
-![img.png](img.png)
-
-```bash
-pip3 install torch torchvision torchaudio
-```
-
-# Projects List
-
-| Name              | Content                |
-|-------------------|------------------------|
-| 손글씨 숫자 이미지 분류 문제  | 손글씨 숫자 이미지를 분류합니다.     |
-| 작물 잎 사진으로 질병 분류하기 | 작물 잎 사진을 통해 질병을 분류합니다. |
+| 이름           | 설명                                                       |
+|--------------|----------------------------------------------------------|
+| model_codes  | 인공지능 딥러닝 관련 모델에 대한 작업들을 기록하는 폴더이다.                       |
+| server_codes | 인공지능 애플리케이션 서버를 구성하는 폴더이다.                               |
+| ui_codes     | 인공지능 애플리케이션 -> web, android, apple에 대한 UI 파일을 기록하는 폴더이다. |
 
 
