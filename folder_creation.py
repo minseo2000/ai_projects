@@ -11,4 +11,4 @@ def makeFolders(project_names):
 if __name__ == '__main__':
 
     # 다음과 같이 사용하자.
-    makeFolders('작물 분류기')
+    makeFolders('자연어 프레임워크')
